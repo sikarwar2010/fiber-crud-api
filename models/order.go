@@ -15,4 +15,3 @@ type Order struct {
 	UserRefer    int     `json:"user_id"`
 	User         User    `gorm:"foreignKey:UserRefer"`
 }
- 
